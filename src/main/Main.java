@@ -45,6 +45,7 @@ public class Main extends javax.swing.JFrame {
 		initGUI();
 	}
 	private void initGUI() {
+		setTitle("SQLServerDataChecker by Jorge Trujillo");
 		setSize(new Dimension(552, 276));
 		setPreferredSize(new Dimension(100, 100));
 		getContentPane().setMinimumSize(new Dimension(100, 100));
