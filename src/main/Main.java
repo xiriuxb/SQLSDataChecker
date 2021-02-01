@@ -53,7 +53,7 @@ public class Main extends javax.swing.JFrame {
 		panel.setPreferredSize(new Dimension(60, 50));
 		panel.setMinimumSize(new Dimension(100, 100));
 		panel.setSize(new Dimension(100, 100));
-		
+		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 		getContentPane().add(panel, BorderLayout.NORTH);
 		panel.setLayout(new GridLayout(0, 8, 0, 0));
 		
